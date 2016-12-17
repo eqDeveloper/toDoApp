@@ -10,7 +10,7 @@ body, input, button {
 
 header {
     width: 100%;
-    height: 80px;
+    height: 10%;
     position: fixed;
     padding: 15px;
     top: 0;
@@ -24,10 +24,10 @@ header {
 
 header input {
     width: 100%;
-    height: 50px;
+    height: 100%;
     float: left;
     color: #fff;
-    font-size: 15px;
+    font-size: 1em;
     font-weight: 400;
     text-indent: 18px;
     padding: 0 60px 0 0;
@@ -63,8 +63,8 @@ header input::-o-input-placeholder {
 }
 
 header button {
-    width: 50px;
-    height: 50px;
+    width: 48px;
+    height: 48px;
     position: absolute;
     top: 15px;
     right: 15px;
@@ -83,8 +83,8 @@ header button {
 }
 
 header button svg {
-    width: 16px;
-    height: 16px;
+    width: 32%;
+    height: 32%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -111,7 +111,7 @@ ul.todo li {
     float: left;
     min-height: 50px;
     background: #fff;
-    font-size: 14px;
+    font-size: 1em;
     font-weight: 500;
     color: #444;
     line-height: 22px;
@@ -135,8 +135,8 @@ ul.todo li .buttons {
 }
 
 ul.todo li .buttons button {
-    width: 50px;
-    height: 50px;
+    width: 50%;
+    height: 100%;
     float: left;
     background: none;
     position: relative;
